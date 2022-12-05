@@ -15,28 +15,14 @@ body {
 }
 
 .header {
-    
+    overflow: hidden;
     background-color: #ffffff;
-    max-height: 15%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    max-width: 100%;
-}
-
-.logoclass{
-    flex-grow: 1;
-    max-width: min-content;
-    max-height: min-content;
+    box-sizing: border-box;
 }
 
 .tags {
+    padding-top: 30px;
     background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-wrap: nowrap;
-    flex-grow: 4;
-    max-width: 100%;
-   
 }
 
 .tag {
@@ -44,10 +30,7 @@ body {
     font-size: 30px;
     color: #D52B1E;
     text-decoration: none;
-    font-family: walibi;
-    flex-grow: 1;
-max-width: min-content;
-    
+    font-family: walibi
 }
 
 .tagactive {
@@ -56,14 +39,12 @@ max-width: min-content;
     color: white;
     background-color: #D52B1E;
     text-decoration: none;
-    font-family: walibi;
-    flex-grow: 1;
-    max-width: min-content;
+    font-family: walibi
 }
 
 .inhoud {
 	display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
  
     padding-left:10%;
@@ -76,14 +57,12 @@ max-width: min-content;
 .inhoudbestelpagina {
     display: flex;
     flex-wrap: nowrap;
-    min-height: 80%;
-    height: auto;
+    height: 100%;
 }
 
 .inhoudTekst{
 	padding-left: 10%;
     flex-grow: 5;
-    max-width: 60%;
 }
 h3.inhoudTekst{
 	padding-left: 10%;
@@ -93,16 +72,13 @@ h3.inhoudTekst{
 h2.inhoudTekstlinks{
     padding-right: 10%;
     flex-grow: 5;
-    max-width: 60%;
 }
 .inhoudfoto{
     flex-grow: 1;
-    max-width: 30%;
 }
 
 .banner {
     padding: 60px;
-    min-width: 100%;
     background: #750800;
 }
 
@@ -113,76 +89,34 @@ h2.inhoudTekstlinks{
     flex-wrap: nowrap;
     justify-content: center;
     min-height: 600px;
-    max-height: 90%;
     height: auto !important;
 }
 
 .rechterhelft {
     flex-grow: 1;
-    max-height: 90%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     background-color: white;
-    flex-direction: column;
 }
 
 .besteloverzicht {
     font-family: Vollkorn;
-    flex-grow: 1;
-}
-.besteloverzichtinhoud{
-    flex-grow: 2;
 }
 
-
-.bestellen {
+.datebox {
     margin-top: 20%;
-    height: auto;
-    max-height: 50%;
-    min-height: min-content;
+    height: 15%;
     width: 80%;
     background: lightgrey;
-    display: flex;
-    flex-direction: column;
 }
 
 .datepicker {
-    
     margin: 50px;
-    height: auto;
-    width: auto;
-    max-width: min-content;
+    height: 30%;
+    width: 20%;
     border-style: solid;
     border-color: black;
     font-family: Vollkorn;
     font-size: large;
-}
-
-.adult-ticket{
-    flex-grow: 1;
-}
-
-table {
-	font-size: 1em;
-}
-
-.ui-draggable, .ui-droppable {
-	background-position: top;
-}
-
-.weer{
-    padding: 50px;
-    min-width: 100%;
-}
-
-.leukenaam{
-    padding: 50px;
-    min-width: 50%;
-}
-
-.jouwnaam{
-    font-size: 50px;
-    color: #D52B1E;
-    font-family: walibi;
 }
