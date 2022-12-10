@@ -1064,17 +1064,6 @@ a.ui-button:active,
 }
 .ui-icon,
 
-.ui-state-hover .ui-icon,
-.ui-state-focus .ui-icon,
-.ui-button:hover .ui-icon,
-
-.ui-state-active .ui-icon,
-
-.ui-state-highlight .ui-icon,
-
-.ui-state-error .ui-icon,
-
-
 /* positioning */
 /* Three classes needed to override `.ui-button:hover .ui-icon` */
 .ui-icon-blank.ui-icon-blank.ui-icon-blank {
