@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44489",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\RBarbarian\\Desktop\\wpfw deel 2\\PretparkSite\\week13\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
